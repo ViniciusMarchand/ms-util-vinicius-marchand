@@ -32,8 +32,8 @@ public class GeradorSenhaService {
             return "Erro: selecione ao menos um tipo de caractere.";
         }
 
-        
 
+        
         SecureRandom random = new SecureRandom();
         StringBuilder senha = new StringBuilder();
 
